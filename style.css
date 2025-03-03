@@ -1,0 +1,187 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'barlow';
+    src: url('Fonts/Barlow-Black.ttf'), format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+img{
+    width: 100%;
+}
+
+:root{
+    --cor01: #82DDAA;
+    --cor02: #3BD37F;
+    --cor03: #7BC398;
+    --cor04: #164B2E;
+}
+
+body{
+    margin: 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E8E7C2;
+}
+
+main h1, h2{
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+}
+
+main h2{
+    background-color: var(--cor01);
+    background-image: linear-gradient(to right, var(--cor01), transparent);
+    padding-left: 6px;
+}
+
+main{
+    background-color: #FFFFFF;
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.518);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > article > h1, h2{
+    color: var(--cor04);
+    margin: 0px 0px 0px 10px;
+}
+
+main > article > h1{
+    padding-top: 10px;
+    transition: font-size 1s, text-shadow 1s;
+}
+
+main > article > h1:hover{
+    font-size: 2.05em;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.518);
+}
+
+main > article > p{
+    text-align: justify;
+    text-indent: 38px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+main > article > p > span{
+    color: var(--cor04);
+    font-weight: bold;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+div.video{
+    background-color: var(--cor04);
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+header{
+    color: white;
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor04));
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+header > p{
+    text-align: center;
+}
+
+
+nav{
+    background-color: var(--cor04);
+}
+
+nav > span{
+    padding: 5px;
+    padding-bottom: 0.5px;
+    color: var(--cor03);
+    transition: background-color 0.5s, border-radius 0.5s, color 0.5s;
+}
+
+nav > span:hover{
+    color: var(--cor04);
+    background-color: var(--cor03);
+    border-radius: 5px;
+}
+
+
+a{
+    color: #195B37;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+aside{
+    border-radius: 10px;
+    background-color: var(--cor04);
+    color: white;
+    margin: 10px 10px 0px 10px;
+    padding: 2px 10px 2px 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.518);
+}
+
+aside > ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+aside > h3{
+    background-color: var(--cor03);
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > p > span > a, footer > p > span > a{
+    padding: 2px;
+    padding-bottom: 2px;
+    color: #7BC398;
+    transition: background-color 0.5s, border-radius 0.5s, color 0.5s;
+}
+
+aside > p > span > a:hover, footer > p > span > a:hover{
+    color: #006227;
+    background-color: #279C60;
+    border-radius: 5px;
+}
+
+footer > p > span > a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+}
+
+.principal{
+    text-align: center;
+    font-family: 'barlow', Arial, Helvetica, sans-serif;
+}
