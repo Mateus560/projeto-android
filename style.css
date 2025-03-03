@@ -183,4 +183,5 @@ footer > p > span > a{
 .principal{
     text-align: center;
     font-family: 'barlow', Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
