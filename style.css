@@ -50,6 +50,11 @@ main{
     border-bottom-right-radius: 10px;
 }
 
+article{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 main > article > h1, h2{
     color: var(--cor04);
     margin: 0px 0px 0px 10px;
@@ -171,6 +176,16 @@ aside > p > span > a:hover, footer > p > span > a:hover{
     color: #006227;
     background-color: #279C60;
     border-radius: 5px;
+}
+
+footer{
+    padding: 2px;
+    margin: 5px 10px 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #7BC398;
+    color: black;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.518);
 }
 
 footer > p > span > a{
